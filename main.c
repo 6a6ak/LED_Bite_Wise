@@ -5,7 +5,7 @@
 #define LED1 PE5
  // Pin 2
 int main(void) {
-    // Set PE3, PE4, and PE5 as output (pins 2, 3, and 5)
+    // Set PE5 as output
     DDRE |= (1 << LED1);
 
 
